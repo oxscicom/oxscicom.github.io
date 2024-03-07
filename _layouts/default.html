@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/blue24.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% feed_meta %}
+    {% seo %}
+</head>
+<body>
+    {% include navigation.html %}
+    <article>
+        {{ content }}
+    </article>
+    {% include footer.html %}
+</body>
+</html>

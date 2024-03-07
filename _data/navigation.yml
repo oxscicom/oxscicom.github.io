@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /Blog/
+- name: Reviews
+  link: /Reviews/
+- name: How To
+  link: /How-To/

@@ -1,0 +1,17 @@
+---
+layout: post
+---
+
+Update 2024-03-06: The forum mentioned in this article is no longer active.
+
+Yannow, I downloaded Visual Studio Code the other day so I could do coding for this site on there, and then I've spent all morning continuing to faff around on the Neocities code editor. So I suppose it's not all that worth it. This is just gonna be a quick entry, mostly because I'm starving and there's some leftover pizza in the fridge with my name on it.
+
+So let's see, where did my last entry leave off... Ah yes, a phatty rant about the climate crisis. Yeah, I watched Pride the other day and got all direct action-y about it. Great movie by the way. Something good has come of it at least - I mentioned all this to my mum and volunteered to make a website and email list for the notoriously out of touch local environment group. I'm not sure if they want me to do that for them yet, but they have started thinking about how to get everyone who isn't on Facebook involved, which is great! They do some really great things but their publicity department is severely lacking.
+
+In other news, I went to visit a local secondhand bookshop. It's closing down, which is awful because it's a huge book repository and also a massive part of my childhood. How else would I have been able to pick up traumatising classics such as Fall Out by Gudrun Pausewang and out of date information like a 1960s How To Survive manual? In all seriousness though, it's going to be heartbreaking to see it go. When I was a little nerd, my mum used to drive me and my sister there for the afternoon and we would stay there for hours, picking up enough reading fodder to last us a month. I miss those days when I could get through a book in a day, and when a bookshop was literally heaven. It was good to have a last look around though. I picked up a book on html so I might be able to fix up some stuff on this site and even attempt some more ambitious things. I also found some neat posters and a disc copy of Spore, and of course some crappy sci fi paperbacks for old times sake.
+
+After that I went into town to have dinner with a friend who had been sexiled by her own mother. I wonder sometimes what younger me would think. She was so scared and excited to go for a meal with her friends for the first time that she couldn't speak. All of us paid in cash, exact change, I remember. It was the event of the year. But now I'm literally planning things like that on the day. I wonder if the change is due to my own growth of confidence or due to a change in friend groups. My new friends certainly like to hang out a lot more. But I'm not complaining! Before I went to dinner I also picked up some fingerless gloves (to hide eczema on bad days), a CD of Invaders Must Die by The Prodigy (and the £3 DVD of Pride with any other item at HMV) and a pack of earrings from Claire's, because now my holes have finally healed I need some that aren't covered in pus residue or corroded all to hell.
+
+I'm going on holiday next week and back to full-time work after that, so I won't be very active on here, but my next plans are going to be to work out what exactly an RSS feed is and if I want to set one up for myself. I'll also be writing more for my Favourite Things section, and thinking about how I want to structure the blog entry page to be a bit easier to navigate. Dont forget to check out my forum by the way - it's probably your easiest way of contacting me and getting involved with the small community around this site. Have a good day now, I'm off to enjoy my pizza.
+
+Blue
