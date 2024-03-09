@@ -9,16 +9,18 @@ title: Home
         <p>This is bluescreen.ing, formerly the ugliest website on Neocities, currently the hottest one on GitHub. The name's Blue, and I'll be your guide today through the twisted machinations of my mind... or more likely, your standard bloggerly fare.</p>
         <p>Here I post reviews of everything from high sci-fi to weird lesbian punk, how-to guides on my hobbies and the world's least consistently updated blog! All yours to peruse at your leisure. I've built this site from scratch and by hand - quite the feat for an idiot biologist slash professional beefcake - so I appreciate you taking a look around. She's my heart and soul... or something.</p>
         <!--INSERT BACTERIORAGE BANNER LINK HERE-->
-        <h2>Latest post</h2>
-        <ul>
-            {% for post in site.posts limit:1 %}
-                <li>
-                    <h3><a href="{{ post.url }}"">{{ post.title }}</a></h3>
-                    <p>{{ post.date | date_to_string }}</p>
-                    {{ post.excerpt | truncate: 256}}
-                </li>
-            {% endfor %}
-        </ul>
+        <div class="latest">
+            <h2>Latest post</h2>
+            <ul>
+                {% for post in site.posts limit:1 %}
+                    <li>
+                        <h3><a href="{{ post.url }}"">{{ post.title }}</a></h3>
+                        <p>{{ post.date | date_to_string }}</p>
+                        {{ post.excerpt | truncate: 256}}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
         <h2>About the webmaster</h2>
         <p>My name, as far as you're concerned, is Blue, and I'm a twenty-something year old Brit with a passion for biosciences and watersports. I like to outsorce my pronouns to the people who actually have to use them (A.K.A. not me) so go nuts. Media-wise, I'm a fan of anything that can even slightly be considered sci-fi or horror, ideally some combination of the two with a bit of comedy thrown in for spice. I love rock music and making/mutilating my own clothes, and am currently studying for a degree in biology.</p>
         <p>I first discovered webdev as a hobby when I got covid really badly, had a terrible fever and designed and built most of a website before regaining consciousness again. I've been maintaining it on and off since then. This latest iteration is hopefully somewhat responsive and aligns with best practices for HTML and CSS. It's also a darn sight more accessible than my old one. Still ugly though. Ugly by design.</p>
