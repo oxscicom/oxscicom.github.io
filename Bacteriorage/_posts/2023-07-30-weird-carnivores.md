@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: greenpost
 ---
 
 If I say 'carnivore', you're probably picturing some kind of big cat or feral dog chowing down on a deer carcass. It looks up, head covered in blood and eyes sparking in the light of dusk, or perhaps it's chasing its prey terrifyingly fast, finishing the deal with a crack of the neck... Although you're all science fans. You know damn well that most carnivores are lazier than that, spending the majority of their time digesting their hard-earned food and conserving energy. But, well, a carnivore doesn't have to be an animal, or even have a huge, jawed mouth.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: greenpost
 ---
 
 Here’s some info I gathered up for a school project! This is a really fascinating neurological disease so I hope you all enjoy reading about it.
