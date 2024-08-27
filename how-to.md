@@ -1,6 +1,6 @@
 ---
 layout: menu
-title: How To
+title: How-To
 ---
 
 # How do you do?
