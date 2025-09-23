@@ -303,7 +303,7 @@ hr {
         font-size: 14px;
     }
 
-    article {
+    article, info {
         width: 97%;
     }
 
@@ -371,7 +371,7 @@ hr {
 
         info {
             img {
-                display: none;
+                width: 100px;
             }
         }
     }
