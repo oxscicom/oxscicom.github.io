@@ -4,34 +4,24 @@ title: Home
 ---
 
 <body>
-        <h1>Welcome to your new favourite site.</h1>
-        <img src="assets/images/404image.png" alt="A black and white line drawing of a lesbian eating a burger." style="float: right;" width = 50%>
-        <p>This is bluescreen.ing, formerly the ugliest website on Neocities, currently the hottest one on GitHub. The name's Blue, and I'll be your guide today through the twisted machinations of my mind... or more likely, your standard bloggerly fare.</p>
-        <p>Here I post reviews of everything from high sci-fi to weird lesbian punk, how-to guides on my hobbies and the world's least consistently updated blog! All yours to peruse at your leisure. I've built this site from scratch and by hand - quite the feat for an idiot biologist slash professional beefcake - so I appreciate you taking a look around. She's my heart and soul... or something.</p>
-        <!--INSERT BACTERIORAGE BANNER LINK HERE-->
-        <div class="latest">
-            <h2>Latest post</h2>
-            <ul>
-                {% for post in site.posts limit:1 %}
-                    <li>
-                        <h3><a href="{{ post.url }}"">{{ post.title }}</a></h3>
-                        <p>{{ post.date | date_to_string }}</p>
-                        {{ post.excerpt | truncate: 256}}
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <h2>About the webmaster</h2>
-        <p>My name, as far as you're concerned, is Blue, and I'm a twenty-something year old Brit with a passion for biosciences and watersports. I like to outsorce my pronouns to the people who actually have to use them (A.K.A. not me) so go nuts. Media-wise, I'm a fan of anything that can even slightly be considered sci-fi or horror, ideally some combination of the two with a bit of comedy thrown in for spice. I love rock music and making/mutilating my own clothes, and am currently studying for a degree in biology.</p>
-        <p>I first discovered webdev as a hobby when I got covid really badly, had a terrible fever and designed and built most of a website before regaining consciousness again. I've been maintaining it on and off since then. This latest iteration is hopefully somewhat responsive and aligns with best practices for HTML and CSS. It's also a darn sight more accessible than my old one. Still ugly though. Ugly by design.</p>
-        <div class = "blinkies">
-            <img src="/assets/images/badimages/blinkieautism.webp" alt="Autism blinkie."><img src="/assets/images/badimages/blinkiededf1sh.gif" alt="Dedf1sh blinkie."><img src="/assets/images/badimages/blinkiefish.gif" alt="Fish blinkie."><img src="/assets/images/badimages/blinkiegender.webp" alt="Gender blinkie."><img src="/assets/images/badimages/blinkierowing.gif" alt="Rowing blinkie."><img src="/assets/images/badimages/blinkieundertale.gif" alt="Undertale blinkie."><img src="/assets/images/badimages/blinkiecomputer.gif" alt="Computer blinkie."><img src="/assets/images/badimages/blinkienb.gif" alt="Nonbinary blinkie."><img src="/assets/images/badimages/blinkielesbian.gif" alt="Lesbian blinkie."><img src="/assets/images/badimages/blinkiestartrek.gif" alt="Star Trek blinkie."><img src="/assets/images/badimages/blinkiesonic.gif" alt="Sonic blinkie."><img src="/assets/images/badimages/blinkiegirlfriend.gif" alt="Girlfriend blinkie.">
-        </div>
-        <h2>Frequently Asked Questions</h2>
-        <ol>
-            <li><p><em>Why does the website look rubbish?</em></p><p>Mind your business.</p></li>
-            <li><p><em>How did you become such a sexy and incredible person?</em></p><p>I was born like this. Or maybe it was Maybelline?</p></li>
-            <li><p><em>What hair dye do you use?</em></p><p>Bleach to as light a blonde as you can manage, then use Manic Panic Rockabilly Blue - but leave it on for like, three hours. Longer if you can stand it. I watched Tremors last time I did that. Decent movie. Anyway, mine's still bright blue and it's been four months now so the method works. Trust.</p></li>
-        </ol>
+    <h1>Welcome to the official OSSCE website!</h1>
+    <div class="signup">
+        <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=G96VzPWXk0-0uv5ouFLPkVpgFsBb1q9AluklybXi1iRUQ0s3Wkc4SzZSTzI2RTlZQ0RTQjZEQU5FMy4u&route=shorturl">Join us now!</a>
+    </div>
+    <p>We are a student-run society at the University of Oxford, dedicated to improving access to skills and careers in science communication. Our members span disciplines and career stages - everyone, from undergrads to postdocs, is welcome here. We run frequent workshops, seminars and socials during termtime on a range of different topics. Sign up now to get involved!</p>
+    <div class="latest">
+        <h2>Latest update</h2>
+        <ul>
+            {% for post in site.posts limit:1 %}
+                <li>
+                    <a href="{{ post.url }}"">{{ post.title }}</a>
+                    <p>{{ post.date | date_to_string }}</p>
+                    {{ post.excerpt | truncate: 256}}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <h2>About us</h2>
+    <p>OSSCE was founded in 2025 by Louisa Haiß. The aim? To <strong>make research accessible</strong>. That means making our research available to our peers, our government and the general public, but also making the skills needed to share our research accessible. We have found that, especially for STEM disciplines, there is very little education on how best to communicate our research, and it's difficult to get into science communication as a field. However, it's a vital skill for all scientists and researchers in general, especially with the rise of fake news, AI and widespread misinformation.. The answer? OSSCE - a place where researchers at all career stages can pick up these vital skills while networking with their peers.</p>
 </body>
 </html>
