@@ -210,12 +210,30 @@ em {
     }
 }
 
-.menu{
+.menu, .latest{
     ul{
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
+    img{
+        float: none;
+        width: 8vw;
+        padding: 0;
+        padding-right: 1vw;
+        margin: 0;
+    }
+    li{
+        .menu_excerpt{
+            p{
+              float: right;
+              img{
+                  float: left;
+              }
+            }
+        }
+    }
+
 }
 
 nav {
