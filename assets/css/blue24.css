@@ -1,8 +1,8 @@
 
 @font-face {
-    font-family: 'arial_rounded';
-    src: url('../fonts/Arial-Rounded-MT-Bold.woff') format('woff'),
-    src: url('../fonts/ArialRoundedMTBold.woff2') format('woff2');
+    font-family: 'franklin_gothic_demi';
+    src: url('../fonts/FranklinGothic-Demi.woff2') format('woff2'),
+         url('../fonts/FranklinGothic-Demi.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,19 +16,19 @@
 }
 
 a:link {
-    color: darkturquoise;
+    color: gold;
 }
 
 a:visited {
-    color: mediumorchid;
+    color: orange;
 }
 
 a:hover {
-    color: cyan;
+    color: yellow;
 }
 
 a:active {
-    color: gold;
+    color: lightyellow;
 }
 
 body {
@@ -127,7 +127,7 @@ em {
 
 .signup{
     background: gold;
-    font-family: arial_rounded;
+    font-family: franklin_gothic_demi;
     width: 17vw;
     height: 5vw;
     float: right;
@@ -155,7 +155,7 @@ em {
     }
 
     a:active {
-        color: mediumspringgreen;
+        color: blue;
         text-decoration: none;
     }
 }
@@ -193,20 +193,42 @@ em {
     align-items: center;
     color: white;
     column-gap: 10px;
-    background: linear-gradient(90deg,rgba(237, 87, 64, 1) 0%, rgba(237, 209, 69, 1) 33%, rgba(83, 237, 160, 1) 66%, rgba(83, 181, 237, 1) 100%);
+    background: linear-gradient(90deg,rgba(25, 25, 112, 1) 0%, rgba(83, 181, 237, 1) 59%, rgba(135, 206, 235, 1) 100%);
     h1{
         background: white;
-        width: 100%;
-        text-align: center;
+        text-align: right;
         padding: 1%;
         margin-bottom: 0px;
-        margin-top: 5px;
+        margin-top: 0px;
         color: midnightblue;
     }
     .padding {
         flex-grow: 1;
         flex-shrink: 1;
         background: white;
+    }
+
+    .big-padding{
+        height: 10px;
+    }
+}
+
+.logo-container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 60%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    display: flex;
+    align-items: center;
+    img{
+        background-color: white;
+        height: 8vw;
     }
 }
 
@@ -237,7 +259,7 @@ em {
 }
 
 nav {
-    font-family: arial_rounded;
+    font-family: franklin_gothic_demi;
     width: 65%;
 
     a:link {
@@ -277,32 +299,23 @@ nav {
 
 h1, h2, h3, h4, h5, h6 {
     color: midnightblue;
-    font-family: arial_rounded;
+    font-family: franklin_gothic_demi;
 }
 
 h1 {
     font-size: 3vw;
-    text-decoration-line: underline;
-    text-decoration-color: mediumspringgreen;
 }
 
 h2 {
     font-size: 2.5vw;
-    text-decoration-line: underline;
-    text-decoration-color: tomato;
 }
 
 h3 {
     font-size: 1.9vw;
-    text-decoration-line: underline;
-    text-decoration-color: gold;
 }
 
 h4 {
     font-size: 1.7vw;
-    text-decoration-line: underline;
-    text-decoration-color: slateblue;
-}
 
 h5 {
     font-size: 1.5vw;

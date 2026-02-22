@@ -15,7 +15,7 @@ As an **Events Officer**, you'll play a central role in designing and delivering
 We're looking for:
 
 - A reliable and proactive team player.
-- Someone who enjoys workiing with others (and leading when needed).
+- Someone who enjoys working with others (and leading when needed).
 - Strong organisational skills and curiosity in abundance.
 
 This role comes with a relatively high workload so please apply if you're ready to take on a rewarding challenge!
